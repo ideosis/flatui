@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>AdminCTRL - Admin Dashboard</title>
+
+	<!-- Loading Bootstrap -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Loading Flat UI  -->
+	<link href="css/style.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="d-flex" id="wrapper">
+		<!-- Navbar -->
+		<nav class="navbar navbar-inverse navbar-expand-lg fixed-top" role="navigation">
+			<!-- Navbar content -->
+			<a id="logo" class="navbar-brand d-lg-block" href="/"><img src="images/icons/retina.svg" height="30" alt=""
+					class="pr-2">AdminCTRL</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			</button>
+			<div class="collapse navbar-collapse justify-content-end pl-3" id="navbarSupportedContent">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="login.html">
+							<span class="fui-lock pr-2"></span>Login
+						</a>
+					</li>
+					<li>
+						<a href="register.html">
+							<span class="fui-new pr-2"></span>Register
+						</a>
+					</li>
+				</ul>
+
+			</div><!-- /.navbar-collapse -->
+		</nav>
+
+		<!-- Page Content -->
+		<div id="page-content-wrapper">
+			<div class="container-fluid">
+				<div class="row justify-content-center absolute-center">
+					<div class="col-md-3 ">
+						<div class="text-center mb-4">
+							<img class="mb-4" src="images/icons/key.svg" alt="">
+							<h1 class="h3 mb-3 font-weight-normal">Login Account</h1>
+							<p>Sign In to your account using <code>valid password</code>
+								pseudo-element. <a href="https://caniuse.com/#feat=css-placeholder-shown">Works in
+									latest Chrome, Safari, and Firefox.</a></p>
+						</div>
+						<form action="dashboard.html" method="GET">
+							<!-- <div class="form-group ">
+								<div class="input-group">
+									<span class="input-group-btn">
+										<button type="button" class="btn"><span class="fui-mail"></span></button>
+									</span>
+									<input type="email" class="form-control" placeholder="E-Mail Address" id="email" name="email" value="" required/>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group">
+									<span class="input-group-btn">
+										<button class="btn" type="button"><span class="fui-lock"></span></button>
+									</span>
+									<input id="password" type="password" class="form-control" name="password" placeholder="Password" required>
+								</div>
+							</div>
+							<label class="checkbox" for="remember">
+								<input type="checkbox" value="1" id="remember" data-toggle="checkbox" > Remember Me
+							</label> -->
+
+							<div class="form-group has-feedback">
+								<input type="email" id="inputEmail" class="form-control" placeholder="Email address" autofocus>
+								<span class="form-control-feedback fui-mail"></span>
+							</div>
+
+							<div class="form-group has-feedback">
+								<input type="password" id="inputPassword" class="form-control" placeholder="Password">
+								<span class="form-control-feedback fui-lock"></span>
+							</div>
+
+							<div class="form-group">
+								<label class="checkbox text-muted" for="remember">
+								  <input type="checkbox" data-toggle="checkbox" value="" id="remember">
+								  Remember me
+								</label>
+							</div>
+
+							<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+							<p class="text-center small"><a href="reset.html">Forgot Your Password?</a></p>
+							<p class="mt-5 mb-3 text-muted text-center small">&copy; 2019 Ideosis Technologies Inc. All rights reserved.</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /#page-content-wrapper -->
+	</div>
+	<!-- /#wrapper -->
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="vendor/jquery/jquery.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="scripts/flat-ui-pro.js"></script>
+	<script src="scripts/application.js"></script>
+
+</body>
+
+</html>
