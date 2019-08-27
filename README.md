@@ -1,4 +1,4 @@
-# FlatUI Dashboard Laravel - Free Frontend Preset for Laravel
+# FlatUI Dashboard - Free Frontend Preset for Laravel
 
 Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 5.5 and up.
 
